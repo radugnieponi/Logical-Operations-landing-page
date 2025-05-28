@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конъюнкция, дизъюнкция</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Конъюнкция, дизъюнкция</h1>
+        <nav id="navbar">
+            <a href="#conjunction">Конъюнкция</a>
+            <a href="#disjunction">Дизъюнкция</a>
+            <a href="#test">Тест</a>
+            <a href="#demo">Демонстрация</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="conjunction">
+            <h2>Конъюнкция</h2>
+            <p>Конъюнкция (логическое "И") - это логическая операция, которая истинна только тогда, когда оба операнда истинны.</p>
+            <p>Обозначается символом ∧ или &.</p>
+            <p>Таблица истинности для конъюнкции:</p>
+            <img src="https://ege-mobile.maximumtest.ru/v1/content/image/98bb14a2-218e-46ce-a221-b7ed29324d20" alt="Таблица истинности конъюнкции" class="theory-img">
+            <p>Пример: A ∧ B истинно только когда и A, и B истинны.</p>
+        </section>
+    
+        <section id="disjunction">
+            <h2>Дизъюнкция</h2>
+            <p>Дизъюнкция (логическое "ИЛИ") - это логическая операция, которая истинна, когда хотя бы один из операндов истинен.</p>
+            <p>Обозначается символом ∨ или |.</p>
+            <p>Таблица истинности для дизъюнкции:</p>
+            <img src="https://ege-mobile.maximumtest.ru/v1/content/image/70bbb327-e1f4-450a-acec-8dcb31a17606" alt="Таблица истинности дизъюнкции" class="theory-img">
+            <p>Пример: A ∨ B истинно когда либо A, либо B, либо оба истинны.</p>
+        </section>
+    
+<section id="test">
+    <h2>Тест</h2>
+    <form id="test-form">
+        <div class="test-question">
+            <p>1. Какое значение имеет выражение "1 ∧ 0"?</p>
+            <div class="test-option">
+                <input type="radio" name="q1" id="q1-a" value="a">
+                <label for="q1-a">1</label>
+            </div>
+            <div class="test-option">
+                <input type="radio" name="q1" id="q1-b" value="b">
+                <label for="q1-b">0</label>
+            </div>
+        </div>
+    
+        <div class="test-question">
+            <p>2. Какое значение имеет выражение "1 ∨ 0"?</p>
+            <div class="test-option">
+                <input type="radio" name="q2" id="q2-a" value="a">
+                <label for="q2-a">1</label>
+            </div>
+            <div class="test-option">
+                <input type="radio" name="q2" id="q2-b" value="b">
+                <label for="q2-b">0</label>
+            </div>
+        </div>
+    
+        <div class="test-question">
+            <p>3. Какие символы обозначают конъюнкцию? (Выберите все верные)</p>
+            <div class="test-option">
+                <input type="checkbox" name="q3" id="q3-a" value="a">
+                <label for="q3-a">∧</label>
+            </div>
+            <div class="test-option">
+                <input type="checkbox" name="q3" id="q3-b" value="b">
+                <label for="q3-b">∨</label>
+            </div>
+            <div class="test-option">
+                <input type="checkbox" name="q3" id="q3-c" value="c">
+                <label for="q3-c">&</label>
+            </div>
+        </div>
+    
+        <div class="test-question">
+            <p>4. Какие из следующих утверждений верны для дизъюнкции? (Выберите все верные)</p>
+            <div class="test-option">
+                <input type="checkbox" name="q4" id="q4-a" value="a">
+                <label for="q4-a">0 ∨ 0 = 0</label>
+            </div>
+            <div class="test-option">
+                <input type="checkbox" name="q4" id="q4-b" value="b">
+                <label for="q4-b">1 ∨ 0 = 1</label>
+            </div>
+            <div class="test-option">
+                <input type="checkbox" name="q4" id="q4-c" value="c">
+                <label for="q4-c">1 ∨ 1 = 0</label>
+            </div>
+        </div>
+    
+        <div class="test-question">
+            <p>5. Какое значение имеет выражение "(1 ∧ 1) ∨ (0 ∧ 1)"?</p>
+            <div class="test-option">
+                <input type="radio" name="q5" id="q5-a" value="a">
+                <label for="q5-a">0</label>
+            </div>
+            <div class="test-option">
+                <input type="radio" name="q5" id="q5-b" value="b">
+                <label for="q5-b">1</label>
+            </div>
+        </div>
+    
+        <div class="test-question">
+            <p>6. Как называется операция, обратная дизъюнкции?</p>
+            <div class="test-option">
+                <input type="radio" name="q6" id="q6-a" value="a">
+                <label for="q6-a">Отрицание</label>
+            </div>
+            <div class="test-option">
+                <input type="radio" name="q6" id="q6-b" value="b">
+                <label for="q6-b">Инверсия</label>
+            </div>
+            <div class="test-option">
+                <input type="radio" name="q6" id="q6-c" value="c">
+                <label for="q6-c">Штрих Шеффера</label>
+            </div>
+        </div>
+    
+        <div class="test-question">
+            <p>7. В каких случаях конъюнкция двух высказываний истинна?</p>
+            <div class="test-option">
+                <input type="checkbox" name="q7" id="q7-a" value="a">
+                <label for="q7-a">Когда оба высказывания истинны</label>
+            </div>
+            <div class="test-option">
+                <input type="checkbox" name="q7" id="q7-b" value="b">
+                <label for="q7-b">Когда хотя бы одно высказывание истинно</label>
+            </div>
+            <div class="test-option">
+                <input type="checkbox" name="q7" id="q7-c" value="c">
+                <label for="q7-c">Когда первое высказывание истинно</label>
+            </div>
+        </div>
+    
+        <div class="test-question">
+            <p>8. Какое из выражений эквивалентно A ∧ B?</p>
+            <div class="test-option">
+                <input type="radio" name="q8" id="q8-a" value="a">
+                <label for="q8-a">¬(¬A ∨ ¬B)</label>
+            </div>
+            <div class="test-option">
+                <input type="radio" name="q8" id="q8-b" value="b">
+                <label for="q8-b">¬A ∨ ¬B</label>
+            </div>
+            <div class="test-option">
+                <input type="radio" name="q8" id="q8-c" value="c">
+                <label for="q8-c">A ∨ B</label>
+            </div>
+        </div>
+    
+        <div class="test-question">
+            <p>9. Как называется закон: A ∨ (B ∧ C) = (A ∨ B) ∧ (A ∨ C)?</p>
+            <div class="test-option">
+                <input type="radio" name="q9" id="q9-a" value="a">
+                <label for="q9-a">Дистрибутивность дизъюнкции относительно конъюнкции</label>
+            </div>
+            <div class="test-option">
+                <input type="radio" name="q9" id="q9-b" value="b">
+                <label for="q9-b">Ассоциативность дизъюнкции</label>
+            </div>
+            <div class="test-option">
+                <input type="radio" name="q9" id="q9-c" value="c">
+                <label for="q9-c">Закон де Моргана</label>
+            </div>
+        </div>
+    
+        <div class="test-question">
+            <p>10. Какое значение имеет выражение "(1 ∨ 0) ∧ (0 ∨ 1)"?</p>
+            <div class="test-option">
+                <input type="radio" name="q10" id="q10-a" value="a">
+                <label for="q10-a">0</label>
+            </div>
+            <div class="test-option">
+                <input type="radio" name="q10" id="q10-b" value="b">
+                <label for="q10-b">1</label>
+            </div>
+        </div>
+    
+        <div class="test-question">
+            <p>11. Какие из следующих утверждений верны для конъюнкции? (Выберите все верные)</p>
+            <div class="test-option">
+                <input type="checkbox" name="q11" id="q11-a" value="a">
+                <label for="q11-a">A ∧ A = A</label>
+            </div>
+            <div class="test-option">
+                <input type="checkbox" name="q11" id="q11-b" value="b">
+                <label for="q11-b">A ∧ ¬A = 1</label>
+            </div>
+            <div class="test-option">
+                <input type="checkbox" name="q11" id="q11-c" value="c">
+                <label for="q11-c">A ∧ 0 = 0</label>
+            </div>
+        </div>
+    
+        <div class="test-question">
+            <p>12. Какой закон логики представлен выражением ¬(A ∧ B) = ¬A ∨ ¬B?</p>
+            <div class="test-option">
+                <input type="radio" name="q12" id="q12-a" value="a">
+                <label for="q12-a">Закон де Моргана</label>
+            </div>
+            <div class="test-option">
+                <input type="radio" name="q12" id="q12-b" value="b">
+                <label for="q12-b">Закон дистрибутивности</label>
+            </div>
+            <div class="test-option">
+                <input type="radio" name="q12" id="q12-c" value="c">
+                <label for="q12-c">Закон ассоциативности</label>
+            </div>
+        </div>
+    
+        <div class="test-question">
+            <p>13. Какое из выражений всегда ложно?</p>
+            <div class="test-option">
+                <input type="radio" name="q13" id="q13-a" value="a">
+                <label for="q13-a">A ∧ ¬A</label>
+            </div>
+            <div class="test-option">
+                <input type="radio" name="q13" id="q13-b" value="b">
+                <label for="q13-b">A ∨ ¬A</label>
+            </div>
+            <div class="test-option">
+                <input type="radio" name="q13" id="q13-c" value="c">
+                <label for="q13-c">A ∧ A</label>
+            </div>
+        </div>
+    
+        <div class="test-question">
+            <p>14. В булевой алгебре конъюнкция аналогична:</p>
+            <div class="test-option">
+                <input type="radio" name="q14" id="q14-a" value="a">
+                <label for="q14-a">Умножению</label>
+            </div>
+            <div class="test-option">
+                <input type="radio" name="q14" id="q14-b" value="b">
+                <label for="q14-b">Сложению</label>
+            </div>
+            <div class="test-option">
+                <input type="radio" name="q14" id="q14-c" value="c">
+                <label for="q14-c">Вычитанию</label>
+            </div>
+        </div>
+    
+        <div class="test-question">
+            <p>15. Какое из этих свойств НЕ относится к дизъюнкции?</p>
+            <div class="test-option">
+                <input type="radio" name="q15" id="q15-a" value="a">
+                <label for="q15-a">A ∨ 0 = A</label>
+            </div>
+            <div class="test-option">
+                <input type="radio" name="q15" id="q15-b" value="b">
+                <label for="q15-b">A ∨ 1 = 1</label>
+            </div>
+            <div class="test-option">
+                <input type="radio" name="q15" id="q15-c" value="c">
+                <label for="q15-c">A ∨ A = 0</label>
+            </div>
+        </div>
+    
+        <button type="button" id="submit-test">Проверить ответы</button>
+    </form>
+
+    <div id="test-results" class="hidden"></div>
+</section>
+    
+        <section id="demo">
+            <h2>Демонстрация</h2>
+            <p>Введите два набора натуральных чисел через запятую и выберите операцию:</p>
+        
+            <div class="demo-container">
+                <div class="input-boxes">
+                    <div class="input-box">
+                        <label for="input1">Первый набор:</label>
+                        <input type="text" id="input1" placeholder="Например: 1,5,3">
+                    </div>
+                
+                    <div class="input-box">
+                        <label for="input2">Второй набор:</label>
+                        <input type="text" id="input2" placeholder="Например: 2,1,4">
+                    </div>
+                </div>
+            
+                <div class="operation-buttons">
+                    <button type="button" id="conjunction-btn">Конъюнкция</button>
+                    <button type="button" id="disjunction-btn">Дизъюнкция</button>
+                </div>
+            
+                <div id="result" class="operation-result">
+                    <h3>Процесс вычисления:</h3>
+                    <div id="calculation-steps"></div>
+                    <div id="final-result"></div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+    <footer></footer>
+</body>
+</html>
